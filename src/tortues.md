@@ -2,9 +2,7 @@
 layout: page
 title: Welcome
 eleventyNavigation:
-  key: Home
+  key: tortue
 ---
 
-Welcome to Eleventy starter.
-
-Ce super site a été crée de manière trop facile en commit git
+###Une super page ou on pourrait par exemple mettre des photos de tortues !

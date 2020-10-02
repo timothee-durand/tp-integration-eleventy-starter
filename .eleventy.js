@@ -9,6 +9,11 @@ const transforms = require('./utils/transforms')
 const shortcodes = require('./utils/shortcodes')
 const markdown = require('./utils/markdown')
 
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+};
+
 // You can now require config options using @config
 const config = require('@config')
 
