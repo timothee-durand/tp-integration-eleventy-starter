@@ -7,4 +7,4 @@ eleventyNavigation:
 
 Welcome to Eleventy starter.
 
-Ce super site a été crée de manière trop facile
+Ce super site a été crée de manière trop facile en commit git
