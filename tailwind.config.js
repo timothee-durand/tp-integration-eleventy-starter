@@ -1,3 +1,5 @@
+
+
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
@@ -10,6 +12,9 @@ module.exports = {
     extend: {
       colors:{
         "soft-red":"#ee4c4c"
+      },
+      fontFamily:{
+        "bebas-neue":"Bebas Neue"
       }
     },
   },
