@@ -15,7 +15,11 @@ module.exports = {
       },
       fontFamily:{
         "bebas-neue":"Bebas Neue"
-      }
+      },
+      screens: {
+        'phone': {'raw': '(width<300px)'},
+        // => @media (orientation: portrait) { ... }
+      },
     },
   },
   variants: {},
